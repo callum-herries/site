@@ -54,8 +54,12 @@
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
     [:link {:rel "stylesheet" :href "../resources/public/css/app-components.css"}]
     [:link {:rel "stylesheet" :href "../resources/public/css/app-utilities.css"}]
+    [:link {:rel "stylesheet" :href "../resources/public/css/github.css"}]
     [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css?family=Roboto+Slab:700"}]
-    [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css?family=Crimson+Pro"}]]
+    [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css?family=Crimson+Pro"}]
+    [:script {:src "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"}]
+    [:script {:src "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/languages/clojure.min.js"}]
+    [:script "hljs.highlightAll()"]]
    [:body {:class "pt-24 p-8 leading-7 text-gray-700"}
     [:div {:class "my-3"}
      body]]])

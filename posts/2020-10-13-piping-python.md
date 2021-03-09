@@ -10,7 +10,6 @@ Piping values through functions is best suited to problems where:
 
 Let's take some code from a respected Python programmer, and try to implement it with pipetools. Here's Peter Norvig's solution to 2018 Advent of Code, Day 11:
 
-```
 The power level in a given fuel cell can be found through the following process:
 1. Find the fuel cell's rack ID, which is its X coordinate plus 10.
 2. Begin with a power level of the rack ID times the Y coordinate.
@@ -18,7 +17,6 @@ The power level in a given fuel cell can be found through the following process:
 4. Set the power level to itself multiplied by the rack ID.
 5. Keep only the hundreds digit of the power level (so 12345 becomes 3; numbers with no hundreds digit become 0).
 6. Subtract 5 from the power level.
-```
 
 Here is Norvig's Python code:
 ```
