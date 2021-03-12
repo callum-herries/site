@@ -18,6 +18,7 @@ build-html:
   #!/usr/bin/env bash
   bb posts.clj
   bootleg index.clj -o index.html
+  bootleg milo.clj -o milo.html
 
 dev:
   npx onchange -i $(find . -name '*.clj' -o -name '*.md') -- just build-html
