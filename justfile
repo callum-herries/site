@@ -24,8 +24,8 @@ dev:
   npx onchange -i $(find . -name '*.clj' -o -name '*.md') -- just build-html
 
 build-assets:
-  build-css-prod
-  build-html
+  just build-css-prod
+  just build-html
 
 sync:
   browser-sync start --server --files "**/*.html" "**/*.css"
