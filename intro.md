@@ -1,7 +1,5 @@
-I live in Amsterdam but grew up in New Zealand.
+I turn keystrokes into Clojure(Script).
 
-Previously I studied applied mathematics, but now I write Clojure(Script) and Python.
+Sometimes I write [here](/posts.html), code [here](https://github.com/calherries), and write about code [here](https://nextjournal.com/calherries).
 
-Sometimes I write [here](/posts.html), and code [here](https://github.com/calherries), and [here](https://nextjournal.com/calherries).
-
-[hello@callumherries.com](mailto:hello@callumherries.com)
+Contact: [hello@callumherries.com](mailto:hello@callumherries.com)

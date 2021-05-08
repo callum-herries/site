@@ -49,7 +49,7 @@
   [:html
    [:head
     [:meta {:charset "UTF-8"}]
-    [:title "Callum Herries"]
+    [:title "Cal Herries"]
     [:meta {:name "description" :content "My personal site."}]
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
     [:link {:rel "stylesheet" :href "../resources/public/css/app-components.css"}]
